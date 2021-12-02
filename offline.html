@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="papaparse.min.js"></script>
+    <link rel="manifest" href="/manifest.json">
+    <title>Survay Questionnaires</title>
+</head>
+
+<body>
+    <h1>[O] Filling for <span id="fillingFor"></span></h1>
+    <div>
+        <div id="parsed_csv_list"></div>
+    </div>
+    <div>
+        <div id="questions"></div>
+    </div>
+
+    <br><br>
+    <button onclick="save()">Save</button>
+    <br><br>
+
+    <h1>[O] Filling for <span id="fillingFor2"></span></h1>
+
+
+    <div id="downloadHolder">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

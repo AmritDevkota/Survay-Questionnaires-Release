@@ -1,0 +1,11 @@
+{
+    "name": "Questionnaire Survay",
+    "short_name" : "Questionnaire Survay",
+    "start_url": "/",
+    "scope" : "./",
+    "icons": [
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
