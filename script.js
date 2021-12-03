@@ -139,6 +139,7 @@ function populateQuestions(questions) {
         if (element.questionType == 'input' || element.questionType == 'choiceInput' || element.questionType == 'mChoiceInput') {
             let input = document.createElement("input");
             input.setAttribute("id", 'question-' + i);
+            input.setAttribute("size", "60");
             div.appendChild(input);
         }
 
