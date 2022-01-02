@@ -34,7 +34,7 @@ const updateFillingFor = () => {
 }
 
 const readInitial = () => {
-    fetch("./questions.csv")
+    fetch("./newquestions.csv")
         // fetch("https://quiz.bloggernepal.com/questions.json")
         .then(response => {
 
